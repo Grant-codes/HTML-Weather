@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function fetchWeather() {
         const userInput = document.getElementById('city-input').value;
-        const apiKey = '5bc4a29242c5b1039483f2707fa5f54c'; // Replace with your actual API key
+        const apiKey = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
 
         // We'll assume the country is the US for now.
         const countryCode = 'us';
